@@ -32,7 +32,7 @@ final class LocalService {
         }
     }
     
-    func realData() -> [BaseModel]? {
+    func readData() -> [BaseModel]? {
         let dataKey = "dummyDatas"
         if let dir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first {
             let fileURL = dir.appendingPathComponent(dataKey)
