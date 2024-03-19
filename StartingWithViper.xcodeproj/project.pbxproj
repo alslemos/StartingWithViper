@@ -18,6 +18,7 @@
 		E75B51132BA9240D008FCFCF /* LocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75B51122BA9240D008FCFCF /* LocalService.swift */; };
 		E75B51152BA929E8008FCFCF /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75B51142BA929E8008FCFCF /* HomeInteractor.swift */; };
 		E75B51172BA9EEBF008FCFCF /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75B51162BA9EEBF008FCFCF /* HomePresenter.swift */; };
+		E75B51192BA9F13C008FCFCF /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75B51182BA9F13C008FCFCF /* HomeRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		E75B51122BA9240D008FCFCF /* LocalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalService.swift; sourceTree = "<group>"; };
 		E75B51142BA929E8008FCFCF /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
 		E75B51162BA9EEBF008FCFCF /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		E75B51182BA9F13C008FCFCF /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				E75B51122BA9240D008FCFCF /* LocalService.swift */,
 				E75B51142BA929E8008FCFCF /* HomeInteractor.swift */,
 				E75B51162BA9EEBF008FCFCF /* HomePresenter.swift */,
+				E75B51182BA9F13C008FCFCF /* HomeRouter.swift */,
 			);
 			path = StartingWithViper;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				E75B51112BA92277008FCFCF /* BaseModel.swift in Sources */,
 				E75B51132BA9240D008FCFCF /* LocalService.swift in Sources */,
 				E75B51152BA929E8008FCFCF /* HomeInteractor.swift in Sources */,
+				E75B51192BA9F13C008FCFCF /* HomeRouter.swift in Sources */,
 				E75B51172BA9EEBF008FCFCF /* HomePresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
