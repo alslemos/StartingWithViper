@@ -1,11 +1,10 @@
 //
 //  TabBarController.swift
-//  StartingWithViper
+//  Viper-Example
 //
-//  Created by Alexandre Lemos da Silva on 19/03/24.
+//  Created by Mehmet Ateş on 29.08.2022.
 //
 
-import Foundation
 import UIKit
 
 protocol TabBarViewInterface: AnyObject {
@@ -15,26 +14,26 @@ protocol TabBarViewInterface: AnyObject {
 class TabBarController: UITabBarController {
     
     private lazy var homeVC: UIViewController = {
-        let navigationController = UIViewController()
+        let navigationController = UINavigationController()
         let homeViewController = HomeRouter.createModule(using: navigationController)
         navigationController.viewControllers = [homeViewController]
         navigationController.tabBarItem.title = "Home"
-        navigationController.tabBarItem.image = UIImage(systemName: "house,circle")!
+        navigationController.tabBarItem.image = UIImage(systemName: "house.circle")!
         return navigationController
     }()
     
     var presenter: TabBarPresenterInterface? {
-            didSet {
-                presenter?.notifyViewLoaded()
-            }
+        didSet {
+            presenter?.notifyViewLoaded()
+        }
     }
-    
+
     override func viewDidLoad() {
-           super.viewDidLoad()
-       }
-    
+        super.viewDidLoad()
+    }
 }
 
+// MARK: - Interface Setup
 extension TabBarController: TabBarViewInterface {
     
     func setupView() {

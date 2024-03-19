@@ -20,6 +20,9 @@
 		E75B51172BA9EEBF008FCFCF /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75B51162BA9EEBF008FCFCF /* HomePresenter.swift */; };
 		E75B51192BA9F13C008FCFCF /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75B51182BA9F13C008FCFCF /* HomeRouter.swift */; };
 		E75B511B2BA9F1C7008FCFCF /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75B511A2BA9F1C7008FCFCF /* TabBarController.swift */; };
+		E75B511D2BA9F86A008FCFCF /* TabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75B511C2BA9F86A008FCFCF /* TabBarPresenter.swift */; };
+		E75B511F2BA9F8CB008FCFCF /* TabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75B511E2BA9F8CB008FCFCF /* TabBarRouter.swift */; };
+		E75B51212BA9F931008FCFCF /* BaseCollecitonViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75B51202BA9F931008FCFCF /* BaseCollecitonViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		E75B51162BA9EEBF008FCFCF /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
 		E75B51182BA9F13C008FCFCF /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		E75B511A2BA9F1C7008FCFCF /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		E75B511C2BA9F86A008FCFCF /* TabBarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPresenter.swift; sourceTree = "<group>"; };
+		E75B511E2BA9F8CB008FCFCF /* TabBarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarRouter.swift; sourceTree = "<group>"; };
+		E75B51202BA9F931008FCFCF /* BaseCollecitonViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollecitonViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +78,7 @@
 			children = (
 				E75B50FA2BA91868008FCFCF /* AppDelegate.swift */,
 				E75B510E2BA919E5008FCFCF /* HomeViewController.swift */,
+				E75B51202BA9F931008FCFCF /* BaseCollecitonViewCell.swift */,
 				E75B50FC2BA91868008FCFCF /* SceneDelegate.swift */,
 				E75B50FE2BA91868008FCFCF /* ViewController.swift */,
 				E75B51002BA91868008FCFCF /* Main.storyboard */,
@@ -84,6 +91,8 @@
 				E75B51162BA9EEBF008FCFCF /* HomePresenter.swift */,
 				E75B51182BA9F13C008FCFCF /* HomeRouter.swift */,
 				E75B511A2BA9F1C7008FCFCF /* TabBarController.swift */,
+				E75B511C2BA9F86A008FCFCF /* TabBarPresenter.swift */,
+				E75B511E2BA9F8CB008FCFCF /* TabBarRouter.swift */,
 			);
 			path = StartingWithViper;
 			sourceTree = "<group>";
@@ -163,7 +172,10 @@
 				E75B50FB2BA91868008FCFCF /* AppDelegate.swift in Sources */,
 				E75B50FD2BA91868008FCFCF /* SceneDelegate.swift in Sources */,
 				E75B511B2BA9F1C7008FCFCF /* TabBarController.swift in Sources */,
+				E75B511D2BA9F86A008FCFCF /* TabBarPresenter.swift in Sources */,
 				E75B510F2BA919E5008FCFCF /* HomeViewController.swift in Sources */,
+				E75B51212BA9F931008FCFCF /* BaseCollecitonViewCell.swift in Sources */,
+				E75B511F2BA9F8CB008FCFCF /* TabBarRouter.swift in Sources */,
 				E75B51112BA92277008FCFCF /* BaseModel.swift in Sources */,
 				E75B51132BA9240D008FCFCF /* LocalService.swift in Sources */,
 				E75B51152BA929E8008FCFCF /* HomeInteractor.swift in Sources */,
